@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f42c37;
+  --color-secondary: #f42cf47;
+  --color-brandYellow: #fdc62e;
+  --color-brandGreen: #2dcc6f;
+  --color-brandBlue: #1376f4;
+  --color-brandWhite: #eeeeee;
+}
+
+@layer base {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+}

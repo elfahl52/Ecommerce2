@@ -1,0 +1,15 @@
+import React from 'react'
+import Image1 from '../../assets/category/earphone.png'
+import Image2 from '../../assets/category/watch.png'
+import Image3 from '../../assets/category/mac.png'
+function Category() {
+  return (
+    <div className='flex  '>
+      <img src={Image1} alt="Earphone" />
+      <img src={Image2} alt="Earphone" />
+      <img src={Image3} alt="Earphone" />
+    </div>
+  )
+}
+
+export default Category
