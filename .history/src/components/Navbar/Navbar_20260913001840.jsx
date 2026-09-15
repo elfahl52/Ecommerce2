@@ -1,0 +1,21 @@
+import React from 'react'
+
+function Navbar() {
+    return (
+        <div className='bg-white shadow-md dark:bg-gray-900 dark:text-white يعقش'>
+            <div className='py-4'>
+                <div className='container'>
+                    {/* LOGO and Links */}
+                    <div className='flex items-center justify-between'>
+                        <a href="#"
+                            className='text-primary font-semibold tracking-widest text-2xl sm:text-3xl'>e<span className='text-secondary italic'>S</span>hop</a>
+                        {/* Menu Items */}
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Navbar
